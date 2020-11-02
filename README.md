@@ -15,9 +15,9 @@
 ### Running the example:
 
 1. Download the example
-    * Option 1: `git clone https://github.com/applitools/tutorial-webdriverio5-basic.git`
+    * Option 1: `git clone https://github.com/applitools/tutorial-nightwatch.git`
     * Option 2: Download it as a Zip file and extract it
-2. CD into the `tutorial-webdriverio5-basic` folder
+2. CD into the `tutorial-nightwatch` folder
 3. Change the `APPLITOOLS_API_KEY` with your own.
     * Login to Applitools > Click on the Person icon > My API Key
 4. run `npm install`
@@ -26,6 +26,6 @@
 ### Adding to an existing Node.js example
 
 ```sh
-npm install "@applitools/eyes-webdriverio" --save-dev
+npm install "@applitools/eyes-nightwatch" --save-dev
 
 ```
