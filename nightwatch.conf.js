@@ -24,7 +24,7 @@ module.exports = {
     },
   },
   eyes: {
-    // apiKey: 'APPLITOOLS_API_KEY', // You can get your api key from the Applitools dashboard
+    apiKey: 'APPLITOOLS_API_KEY', // You can get your api key from the Applitools dashboard
     batch: {
       name: 'Demo batch'
     },
