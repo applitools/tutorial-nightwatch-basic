@@ -1,3 +1,4 @@
+const host = (process.env.CI === 'true') ? 'selenium' : 'localhost'
 module.exports = {
   src_folders: ['test'],
   custom_commands_path:  'node_modules/@applitools/eyes-nightwatch/commands',
@@ -20,6 +21,7 @@ module.exports = {
       webdriver: {
         port: 4444,
         default_path_prefix: '/wd/hub',
+        host
       },
     },
   },
