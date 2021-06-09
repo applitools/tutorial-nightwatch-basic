@@ -1,3 +1,4 @@
+const host = (process.env.CI === 'true') ? 'selenium' : 'localhost'
 module.exports = {
   src_folders: ['test'],
   custom_commands_path:  'node_modules/@applitools/eyes-nightwatch/commands',
@@ -20,11 +21,12 @@ module.exports = {
       webdriver: {
         port: 4444,
         default_path_prefix: '/wd/hub',
+        host
       },
     },
   },
   eyes: {
-    apiKey: 'APPLITOOLS_API_KEY', // You can get your api key from the Applitools dashboard
+    apiKey: process.env.APPLITOOLS_API_KEY, // You can get your api key from the Applitools dashboard
     batch: {
       name: 'Demo batch'
     },
