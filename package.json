@@ -18,6 +18,6 @@
   "homepage": "https://github.com/applitools/tutorial-nightwatch#readme",
   "devDependencies": {
     "@applitools/eyes-nightwatch": "1.10.0",
-    "nightwatch": "1.7.11"
+    "nightwatch": "1.7.12"
   }
 }
