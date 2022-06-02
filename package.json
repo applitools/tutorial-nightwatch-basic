@@ -19,5 +19,8 @@
   "devDependencies": {
     "@applitools/eyes-nightwatch": "1.10.0",
     "nightwatch": "1.7.12"
+  },
+  "engines": {
+    "node": ">=12.13.0"
   }
 }
